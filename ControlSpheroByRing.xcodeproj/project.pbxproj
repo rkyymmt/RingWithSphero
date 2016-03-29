@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390C056A1C084FC000F898E4 /* mode_free_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 390C05671C084FC000F898E4 /* mode_free_touched.png */; };
+		390C056B1C084FC000F898E4 /* mode_gesture_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 390C05681C084FC000F898E4 /* mode_gesture_touched.png */; };
+		390C056C1C084FC000F898E4 /* mode_stop_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 390C05691C084FC000F898E4 /* mode_stop_touched.png */; };
+		3922838A1C6B39050018F8A3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392283881C6B39050018F8A3 /* Storyboard.storyboard */; };
+		3925CA961BFB0726008EB8C2 /* header_logo_RingBySphero.png in Resources */ = {isa = PBXBuildFile; fileRef = 3925CA951BFB0726008EB8C2 /* header_logo_RingBySphero.png */; };
+		392F04961C636B2D00D456CC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F04951C636B2D00D456CC /* CoreBluetooth.framework */; };
+		392F04981C636B4100D456CC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F04971C636B4100D456CC /* libsqlite3.tbd */; };
+		392F049E1C63730200D456CC /* CoreRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F049D1C63730200D456CC /* CoreRing.framework */; };
+		392F04A01C64C53600D456CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F049F1C64C53600D456CC /* QuartzCore.framework */; };
+		397BAC3A1C058F72004D70B7 /* icon_sphero.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BAC391C058F72004D70B7 /* icon_sphero.png */; };
+		397BAC3C1C05BD23004D70B7 /* icon_discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BAC3B1C05BD23004D70B7 /* icon_discover.png */; };
+		397BAC3E1C05BDD1004D70B7 /* icon_disconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 397BAC3D1C05BDD1004D70B7 /* icon_disconnected.png */; };
+		39AC497F1C5254A7001888E3 /* icon_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AC497E1C5254A7001888E3 /* icon_setting.png */; };
+		39AD6B721C084AD000F529D9 /* mode_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AD6B701C084AD000F529D9 /* mode_stop.png */; };
+		39AD6B761C084AD800F529D9 /* mode_gesture.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AD6B741C084AD800F529D9 /* mode_gesture.png */; };
+		39AD6B7A1C084AE300F529D9 /* mode_free.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AD6B781C084AE300F529D9 /* mode_free.png */; };
+		39AD6B7C1C084AEE00F529D9 /* mark_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AD6B7B1C084AEE00F529D9 /* mark_question.png */; };
+		39AD6B841C084E7100F529D9 /* clickwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AD6B831C084E7100F529D9 /* clickwheel.png */; };
+		39E984841C044B3800CE4CAE /* navbar_connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E984821C044B3800CE4CAE /* navbar_connected.png */; };
+		39E984851C044B3800CE4CAE /* navbar_disconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E984831C044B3800CE4CAE /* navbar_disconnected.png */; };
+		4205BFF91B82EE1800892710 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4205BFF61B82EE1800892710 /* RobotKit.framework */; };
+		4205BFFA1B82EE1800892710 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4205BFF71B82EE1800892710 /* RobotUIKit.bundle */; };
+		4205BFFB1B82EE1800892710 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4205BFF81B82EE1800892710 /* RobotUIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4205C0011B83462B00892710 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4205C0001B83462B00892710 /* ExternalAccessory.framework */; };
+		4292BDFF1B8E904800F2313F /* rainbowSpin.sphero in Resources */ = {isa = PBXBuildFile; fileRef = 4292BDFD1B8E904800F2313F /* rainbowSpin.sphero */; };
+		4292BE001B8E904800F2313F /* rainbow.sphero in Resources */ = {isa = PBXBuildFile; fileRef = 4292BDFE1B8E904800F2313F /* rainbow.sphero */; };
+		429E78581B86C9EF001EBAB5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429E78571B86C9EF001EBAB5 /* AudioToolbox.framework */; };
+		42B8F94E1B82340A0007437B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8F94D1B82340A0007437B /* main.m */; };
+		42B8F9511B82340A0007437B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8F9501B82340A0007437B /* AppDelegate.m */; };
+		42B8F9541B82340A0007437B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8F9531B82340A0007437B /* ViewController.m */; };
+		42B8F9571B82340A0007437B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B8F9551B82340A0007437B /* Main.storyboard */; };
+		42B8F9591B82340A0007437B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B8F9581B82340A0007437B /* Images.xcassets */; };
+		42B8F9681B82340A0007437B /* ControlSpheroByRingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8F9671B82340A0007437B /* ControlSpheroByRingTests.m */; };
+		42E989461B834C2A00B9B9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E989451B834C2A00B9B9AD /* UIKit.framework */; };
+		42E989481B834C3B00B9B9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E989471B834C3B00B9B9AD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B8F9621B82340A0007437B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B8F9401B82340A0007437B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B8F9471B82340A0007437B;
+			remoteInfo = ControlSpheroByRing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390C05671C084FC000F898E4 /* mode_free_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_free_touched.png; sourceTree = "<group>"; };
+		390C05681C084FC000F898E4 /* mode_gesture_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_gesture_touched.png; sourceTree = "<group>"; };
+		390C05691C084FC000F898E4 /* mode_stop_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_stop_touched.png; sourceTree = "<group>"; };
+		392283891C6B39050018F8A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		3925CA951BFB0726008EB8C2 /* header_logo_RingBySphero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_logo_RingBySphero.png; sourceTree = "<group>"; };
+		392F04951C636B2D00D456CC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		392F04971C636B4100D456CC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		392F049D1C63730200D456CC /* CoreRing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreRing.framework; sourceTree = "<group>"; };
+		392F049F1C64C53600D456CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		397BAC391C058F72004D70B7 /* icon_sphero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sphero.png; sourceTree = "<group>"; };
+		397BAC3B1C05BD23004D70B7 /* icon_discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_discover.png; sourceTree = "<group>"; };
+		397BAC3D1C05BDD1004D70B7 /* icon_disconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_disconnected.png; sourceTree = "<group>"; };
+		39AC497E1C5254A7001888E3 /* icon_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_setting.png; sourceTree = "<group>"; };
+		39AD6B701C084AD000F529D9 /* mode_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_stop.png; sourceTree = "<group>"; };
+		39AD6B741C084AD800F529D9 /* mode_gesture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_gesture.png; sourceTree = "<group>"; };
+		39AD6B781C084AE300F529D9 /* mode_free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_free.png; sourceTree = "<group>"; };
+		39AD6B7B1C084AEE00F529D9 /* mark_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark_question.png; sourceTree = "<group>"; };
+		39AD6B831C084E7100F529D9 /* clickwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clickwheel.png; sourceTree = "<group>"; };
+		39E984821C044B3800CE4CAE /* navbar_connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_connected.png; sourceTree = "<group>"; };
+		39E984831C044B3800CE4CAE /* navbar_disconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_disconnected.png; sourceTree = "<group>"; };
+		4205BFF61B82EE1800892710 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotKit.framework; sourceTree = "<group>"; };
+		4205BFF71B82EE1800892710 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RobotUIKit.bundle; sourceTree = "<group>"; };
+		4205BFF81B82EE1800892710 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotUIKit.framework; sourceTree = "<group>"; };
+		4205C0001B83462B00892710 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		4205C0021B83462B00892710 /* ControlSpheroByRing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ControlSpheroByRing.entitlements; sourceTree = "<group>"; };
+		4292BDFD1B8E904800F2313F /* rainbowSpin.sphero */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainbowSpin.sphero; sourceTree = "<group>"; };
+		4292BDFE1B8E904800F2313F /* rainbow.sphero */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainbow.sphero; sourceTree = "<group>"; };
+		429E78571B86C9EF001EBAB5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		42B8F9481B82340A0007437B /* ControlSpheroByRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlSpheroByRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B8F94C1B82340A0007437B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B8F94D1B82340A0007437B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42B8F94F1B82340A0007437B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B8F9501B82340A0007437B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42B8F9521B82340A0007437B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42B8F9531B82340A0007437B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42B8F9561B82340A0007437B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42B8F9581B82340A0007437B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42B8F9611B82340A0007437B /* ControlSpheroByRingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlSpheroByRingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B8F9661B82340A0007437B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B8F9671B82340A0007437B /* ControlSpheroByRingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlSpheroByRingTests.m; sourceTree = "<group>"; };
+		42E989451B834C2A00B9B9AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42E989471B834C3B00B9B9AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B8F9451B82340A0007437B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392F04A01C64C53600D456CC /* QuartzCore.framework in Frameworks */,
+				392F049E1C63730200D456CC /* CoreRing.framework in Frameworks */,
+				392F04981C636B4100D456CC /* libsqlite3.tbd in Frameworks */,
+				392F04961C636B2D00D456CC /* CoreBluetooth.framework in Frameworks */,
+				429E78581B86C9EF001EBAB5 /* AudioToolbox.framework in Frameworks */,
+				42E989481B834C3B00B9B9AD /* Foundation.framework in Frameworks */,
+				42E989461B834C2A00B9B9AD /* UIKit.framework in Frameworks */,
+				4205BFFB1B82EE1800892710 /* RobotUIKit.framework in Frameworks */,
+				4205C0011B83462B00892710 /* ExternalAccessory.framework in Frameworks */,
+				4205BFF91B82EE1800892710 /* RobotKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B8F95E1B82340A0007437B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3922F5411CA9178F00C1F890 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3925CA951BFB0726008EB8C2 /* header_logo_RingBySphero.png */,
+				39E984821C044B3800CE4CAE /* navbar_connected.png */,
+				39E984831C044B3800CE4CAE /* navbar_disconnected.png */,
+				397BAC391C058F72004D70B7 /* icon_sphero.png */,
+				397BAC3B1C05BD23004D70B7 /* icon_discover.png */,
+				397BAC3D1C05BDD1004D70B7 /* icon_disconnected.png */,
+				39AC497E1C5254A7001888E3 /* icon_setting.png */,
+				39AD6B7B1C084AEE00F529D9 /* mark_question.png */,
+				39AD6B781C084AE300F529D9 /* mode_free.png */,
+				39AD6B741C084AD800F529D9 /* mode_gesture.png */,
+				39AD6B701C084AD000F529D9 /* mode_stop.png */,
+				390C05671C084FC000F898E4 /* mode_free_touched.png */,
+				390C05681C084FC000F898E4 /* mode_gesture_touched.png */,
+				390C05691C084FC000F898E4 /* mode_stop_touched.png */,
+				39AD6B831C084E7100F529D9 /* clickwheel.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		4292BDFC1B8E903200F2313F /* macro */ = {
+			isa = PBXGroup;
+			children = (
+				4292BDFD1B8E904800F2313F /* rainbowSpin.sphero */,
+				4292BDFE1B8E904800F2313F /* rainbow.sphero */,
+			);
+			name = macro;
+			sourceTree = "<group>";
+		};
+		42B8F93F1B82340A0007437B = {
+			isa = PBXGroup;
+			children = (
+				392F049F1C64C53600D456CC /* QuartzCore.framework */,
+				392F049D1C63730200D456CC /* CoreRing.framework */,
+				392F04971C636B4100D456CC /* libsqlite3.tbd */,
+				392F04951C636B2D00D456CC /* CoreBluetooth.framework */,
+				429E78571B86C9EF001EBAB5 /* AudioToolbox.framework */,
+				42E989471B834C3B00B9B9AD /* Foundation.framework */,
+				42E989451B834C2A00B9B9AD /* UIKit.framework */,
+				4205C0001B83462B00892710 /* ExternalAccessory.framework */,
+				4205BFF61B82EE1800892710 /* RobotKit.framework */,
+				4205BFF71B82EE1800892710 /* RobotUIKit.bundle */,
+				4205BFF81B82EE1800892710 /* RobotUIKit.framework */,
+				42B8F9491B82340A0007437B /* Products */,
+				42B8F94A1B82340A0007437B /* ControlSpheroByRing */,
+				42B8F9641B82340A0007437B /* ControlSpheroByRingTests */,
+			);
+			sourceTree = "<group>";
+		};
+		42B8F9491B82340A0007437B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B8F9481B82340A0007437B /* ControlSpheroByRing.app */,
+				42B8F9611B82340A0007437B /* ControlSpheroByRingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B8F94A1B82340A0007437B /* ControlSpheroByRing */ = {
+			isa = PBXGroup;
+			children = (
+				3922F5411CA9178F00C1F890 /* images */,
+				4292BDFC1B8E903200F2313F /* macro */,
+				4205C0021B83462B00892710 /* ControlSpheroByRing.entitlements */,
+				42B8F94F1B82340A0007437B /* AppDelegate.h */,
+				42B8F9501B82340A0007437B /* AppDelegate.m */,
+				42B8F9521B82340A0007437B /* ViewController.h */,
+				42B8F9531B82340A0007437B /* ViewController.m */,
+				42B8F9551B82340A0007437B /* Main.storyboard */,
+				392283881C6B39050018F8A3 /* Storyboard.storyboard */,
+				42B8F9581B82340A0007437B /* Images.xcassets */,
+				42B8F94B1B82340A0007437B /* Supporting Files */,
+			);
+			path = ControlSpheroByRing;
+			sourceTree = "<group>";
+		};
+		42B8F94B1B82340A0007437B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B8F94C1B82340A0007437B /* Info.plist */,
+				42B8F94D1B82340A0007437B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B8F9641B82340A0007437B /* ControlSpheroByRingTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B8F9671B82340A0007437B /* ControlSpheroByRingTests.m */,
+				42B8F9651B82340A0007437B /* Supporting Files */,
+			);
+			path = ControlSpheroByRingTests;
+			sourceTree = "<group>";
+		};
+		42B8F9651B82340A0007437B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B8F9661B82340A0007437B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B8F9471B82340A0007437B /* ControlSpheroByRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B8F96B1B82340A0007437B /* Build configuration list for PBXNativeTarget "ControlSpheroByRing" */;
+			buildPhases = (
+				42B8F9441B82340A0007437B /* Sources */,
+				42B8F9451B82340A0007437B /* Frameworks */,
+				42B8F9461B82340A0007437B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlSpheroByRing;
+			productName = ControlSpheroByRing;
+			productReference = 42B8F9481B82340A0007437B /* ControlSpheroByRing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B8F9601B82340A0007437B /* ControlSpheroByRingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B8F96E1B82340A0007437B /* Build configuration list for PBXNativeTarget "ControlSpheroByRingTests" */;
+			buildPhases = (
+				42B8F95D1B82340A0007437B /* Sources */,
+				42B8F95E1B82340A0007437B /* Frameworks */,
+				42B8F95F1B82340A0007437B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B8F9631B82340A0007437B /* PBXTargetDependency */,
+			);
+			name = ControlSpheroByRingTests;
+			productName = ControlSpheroByRingTests;
+			productReference = 42B8F9611B82340A0007437B /* ControlSpheroByRingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B8F9401B82340A0007437B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Takuro Ito";
+				TargetAttributes = {
+					42B8F9471B82340A0007437B = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4UP899V36T;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+					42B8F9601B82340A0007437B = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = E9VUVC7E82;
+						TestTargetID = 42B8F9471B82340A0007437B;
+					};
+				};
+			};
+			buildConfigurationList = 42B8F9431B82340A0007437B /* Build configuration list for PBXProject "ControlSpheroByRing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B8F93F1B82340A0007437B;
+			productRefGroup = 42B8F9491B82340A0007437B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B8F9471B82340A0007437B /* ControlSpheroByRing */,
+				42B8F9601B82340A0007437B /* ControlSpheroByRingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B8F9461B82340A0007437B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AD6B7C1C084AEE00F529D9 /* mark_question.png in Resources */,
+				39AC497F1C5254A7001888E3 /* icon_setting.png in Resources */,
+				39AD6B761C084AD800F529D9 /* mode_gesture.png in Resources */,
+				397BAC3A1C058F72004D70B7 /* icon_sphero.png in Resources */,
+				4292BDFF1B8E904800F2313F /* rainbowSpin.sphero in Resources */,
+				390C056C1C084FC000F898E4 /* mode_stop_touched.png in Resources */,
+				390C056A1C084FC000F898E4 /* mode_free_touched.png in Resources */,
+				397BAC3E1C05BDD1004D70B7 /* icon_disconnected.png in Resources */,
+				3922838A1C6B39050018F8A3 /* Storyboard.storyboard in Resources */,
+				4292BE001B8E904800F2313F /* rainbow.sphero in Resources */,
+				39AD6B721C084AD000F529D9 /* mode_stop.png in Resources */,
+				39E984841C044B3800CE4CAE /* navbar_connected.png in Resources */,
+				3925CA961BFB0726008EB8C2 /* header_logo_RingBySphero.png in Resources */,
+				39AD6B7A1C084AE300F529D9 /* mode_free.png in Resources */,
+				397BAC3C1C05BD23004D70B7 /* icon_discover.png in Resources */,
+				39AD6B841C084E7100F529D9 /* clickwheel.png in Resources */,
+				39E984851C044B3800CE4CAE /* navbar_disconnected.png in Resources */,
+				42B8F9571B82340A0007437B /* Main.storyboard in Resources */,
+				4205BFFA1B82EE1800892710 /* RobotUIKit.bundle in Resources */,
+				42B8F9591B82340A0007437B /* Images.xcassets in Resources */,
+				390C056B1C084FC000F898E4 /* mode_gesture_touched.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B8F95F1B82340A0007437B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B8F9441B82340A0007437B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B8F9541B82340A0007437B /* ViewController.m in Sources */,
+				42B8F9511B82340A0007437B /* AppDelegate.m in Sources */,
+				42B8F94E1B82340A0007437B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B8F95D1B82340A0007437B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B8F9681B82340A0007437B /* ControlSpheroByRingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B8F9631B82340A0007437B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B8F9471B82340A0007437B /* ControlSpheroByRing */;
+			targetProxy = 42B8F9621B82340A0007437B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		392283881C6B39050018F8A3 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392283891C6B39050018F8A3 /* en */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
+		42B8F9551B82340A0007437B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B8F9561B82340A0007437B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B8F9691B82340A0007437B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "05eb701d-99f2-41c0-a326-0ab9729fba6a";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ControlSpheroByRing-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		42B8F96A1B82340A0007437B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "05eb701d-99f2-41c0-a326-0ab9729fba6a";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ControlSpheroByRing-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B8F96C1B82340A0007437B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ControlSpheroByRing/ControlSpheroByRing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = ControlSpheroByRing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.logbar.ring.ControlSpheroByRing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ControlSpheroByRing/ControlSpheroByRing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42B8F96D1B82340A0007437B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ControlSpheroByRing/ControlSpheroByRing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Logbar Inc. (4UP899V36T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = ControlSpheroByRing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.logbar.ring.ControlSpheroByRing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ControlSpheroByRing/ControlSpheroByRing-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		42B8F96F1B82340A0007437B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ControlSpheroByRingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horiuchi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlSpheroByRing.app/ControlSpheroByRing";
+			};
+			name = Debug;
+		};
+		42B8F9701B82340A0007437B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ControlSpheroByRingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horiuchi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlSpheroByRing.app/ControlSpheroByRing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B8F9431B82340A0007437B /* Build configuration list for PBXProject "ControlSpheroByRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B8F9691B82340A0007437B /* Debug */,
+				42B8F96A1B82340A0007437B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B8F96B1B82340A0007437B /* Build configuration list for PBXNativeTarget "ControlSpheroByRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B8F96C1B82340A0007437B /* Debug */,
+				42B8F96D1B82340A0007437B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B8F96E1B82340A0007437B /* Build configuration list for PBXNativeTarget "ControlSpheroByRingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B8F96F1B82340A0007437B /* Debug */,
+				42B8F9701B82340A0007437B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B8F9401B82340A0007437B /* Project object */;
+}

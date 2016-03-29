@@ -1,0 +1,2 @@
+This software is released under the MIT License, see LICENSE.txt
+If you’d like to release an app with sphero iOS SDK, your app has to be evaluated by Sphero Inc. The reason is that Sphero is confirmed as a MFi (Made For iPhone) product by Apple Inc.

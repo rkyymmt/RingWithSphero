@@ -3,8 +3,6 @@
 
 
 @interface AppDelegate ()
-
-
 @end
 
 @implementation AppDelegate
@@ -16,7 +14,7 @@
     [UIApplication sharedApplication].idleTimerDisabled = YES;
     
     // iPhone 4S --> 3.5inch(960×640)(480x320)
-    // iPhone 5, 5c, 5s, iPod touch 5G --> 4inch
+    // iPhone 5, 5c, 5s, iPod touch 5G --> 4inch(568x320)
     // iPhone 6 --> 4.7inch(1334x750)(667x375)
     // iPhone 6 Plus --> 5.5inch(1920×1080)downsampling<--(2208x1242)(736x414)
 
@@ -25,18 +23,18 @@
     // Show the respective storyboard
     UIStoryboard* storyboard;
     if (display.size.height == 480) { // iPhone 4S
-        storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+        storyboard = [UIStoryboard storyboardWithName:@"Small" bundle:nil];
     } else if (display.size.height == 667) { // iPhone 6
         storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     } else if (display.size.height == 736) { // iPhone 6 Plus
         storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     } else {
-        storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+        storyboard = [UIStoryboard storyboardWithName:@"Small" bundle:nil];
     }
     
     NSString *modelname = [ [ UIDevice currentDevice] model];
     if ( [modelname hasPrefix:@"iPad"] ) {
-        storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+        storyboard = [UIStoryboard storyboardWithName:@"Small" bundle:nil];
     }
     UIViewController* rootViewController = [storyboard instantiateInitialViewController];
     self.window.rootViewController = rootViewController;

@@ -10,7 +10,7 @@
 		390C056A1C084FC000F898E4 /* mode_free_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 390C05671C084FC000F898E4 /* mode_free_touched.png */; };
 		390C056B1C084FC000F898E4 /* mode_gesture_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 390C05681C084FC000F898E4 /* mode_gesture_touched.png */; };
 		390C056C1C084FC000F898E4 /* mode_stop_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 390C05691C084FC000F898E4 /* mode_stop_touched.png */; };
-		3922838A1C6B39050018F8A3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392283881C6B39050018F8A3 /* Storyboard.storyboard */; };
+		3922838A1C6B39050018F8A3 /* Small.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392283881C6B39050018F8A3 /* Small.storyboard */; };
 		3925CA961BFB0726008EB8C2 /* header_logo_RingBySphero.png in Resources */ = {isa = PBXBuildFile; fileRef = 3925CA951BFB0726008EB8C2 /* header_logo_RingBySphero.png */; };
 		392F04961C636B2D00D456CC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F04951C636B2D00D456CC /* CoreBluetooth.framework */; };
 		392F04981C636B4100D456CC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392F04971C636B4100D456CC /* libsqlite3.tbd */; };
@@ -58,7 +58,7 @@
 		390C05671C084FC000F898E4 /* mode_free_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_free_touched.png; sourceTree = "<group>"; };
 		390C05681C084FC000F898E4 /* mode_gesture_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_gesture_touched.png; sourceTree = "<group>"; };
 		390C05691C084FC000F898E4 /* mode_stop_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mode_stop_touched.png; sourceTree = "<group>"; };
-		392283891C6B39050018F8A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		392283891C6B39050018F8A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Small.storyboard; sourceTree = "<group>"; };
 		3925CA951BFB0726008EB8C2 /* header_logo_RingBySphero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_logo_RingBySphero.png; sourceTree = "<group>"; };
 		392F04951C636B2D00D456CC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		392F04971C636B4100D456CC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -198,7 +198,7 @@
 				42B8F9521B82340A0007437B /* ViewController.h */,
 				42B8F9531B82340A0007437B /* ViewController.m */,
 				42B8F9551B82340A0007437B /* Main.storyboard */,
-				392283881C6B39050018F8A3 /* Storyboard.storyboard */,
+				392283881C6B39050018F8A3 /* Small.storyboard */,
 				42B8F9581B82340A0007437B /* Images.xcassets */,
 				42B8F94B1B82340A0007437B /* Supporting Files */,
 			);
@@ -330,7 +330,7 @@
 				390C056C1C084FC000F898E4 /* mode_stop_touched.png in Resources */,
 				390C056A1C084FC000F898E4 /* mode_free_touched.png in Resources */,
 				397BAC3E1C05BDD1004D70B7 /* icon_disconnected.png in Resources */,
-				3922838A1C6B39050018F8A3 /* Storyboard.storyboard in Resources */,
+				3922838A1C6B39050018F8A3 /* Small.storyboard in Resources */,
 				4292BE001B8E904800F2313F /* rainbow.sphero in Resources */,
 				39AD6B721C084AD000F529D9 /* mode_stop.png in Resources */,
 				39E984841C044B3800CE4CAE /* navbar_connected.png in Resources */,
@@ -385,12 +385,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		392283881C6B39050018F8A3 /* Storyboard.storyboard */ = {
+		392283881C6B39050018F8A3 /* Small.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				392283891C6B39050018F8A3 /* en */,
 			);
-			name = Storyboard.storyboard;
+			name = Small.storyboard;
 			sourceTree = "<group>";
 		};
 		42B8F9551B82340A0007437B /* Main.storyboard */ = {
